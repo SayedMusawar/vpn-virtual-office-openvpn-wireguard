@@ -1,0 +1,11 @@
+network:
+  version: 2
+  ethernets:
+    enp0s3:
+      dhcp4: true
+      dhcp6: false
+      accept-ra: false
+      dhcp4-overrides:
+        use-routes: false
+    enp0s8:
+      addresses: [10.0.0.12/24]

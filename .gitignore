@@ -1,0 +1,21 @@
+# Secrets - never commit
+*.key
+*.psk
+ta.key
+pki/
+private/
+*.p12
+*-wg0.conf
+!*.redacted.conf
+*.ovpn
+!*.redacted.ovpn
+# VM and large files
+*.vdi
+*.vbox
+*.vbox-prev
+*.iso
+Logs/
+# Editors / OS
+*.bak
+*~
+.DS_Store
